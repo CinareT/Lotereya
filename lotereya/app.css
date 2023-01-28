@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(29, 22, 22, 0.2);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+.box{
+    height: 45vh;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(112, 49, 70, 0.2);
+    border: 1px solid black;
+    
+}
+.loto{
+    height: 45vh;
+    margin-top: 0;
+    width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/z/cards-kegs-russian-lotto-bingo-game-white-background-144811205.jpg);
+    
+}
+h1{
+    margin-left: 45%;
+}
+img{
+    background-size: contain;
+    background-position: inherit;
+}
+.btns{
+    margin-left: 70%;
+}
+.image{
+    width: 400px;
+    height: 300px;
+    margin-bottom: -5vh;
+    margin-top: 5vh;
+    margin-left: 65%;
+    
+}
+button{
+    padding: 5px 20px;
+}
+.text{
+
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 17%;
+}
+.photo{
+    margin-top: 1vh;
+}
+@media screen and (max-width:1000px){
+    .text{
+        width: 100%;
+        margin-left: -20%;
+    }
+    .image{
+        margin-left: 45%;
+    }
+    .btns{
+        margin-left: 50%;
+    }
+    .loto{
+        height: 55vh;
+    }
+    .box{
+        height: 55vh;
+    }
+}
